@@ -4,3 +4,4 @@
 
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4 -- 4 spaces as tab
+vim.g.lazyvim_picker = "fzf"

@@ -23,6 +23,7 @@ require("lazy").setup({
 				colorscheme = "darkblue", -- Trick to avoid an error with lazyvim and solarized-osaka
 			},
 		},
+		{ import = "lazyvim.plugins.extras.dap.core" },
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
