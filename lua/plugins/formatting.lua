@@ -6,6 +6,8 @@ return {
 		opts = {
 			formatters_by_ft = {
 				c = { "uncrustify" },
+				cpp = { "uncrustify" },
+				markdown = { "mdslw" },
 			},
 		},
 	},
