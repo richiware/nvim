@@ -8,11 +8,12 @@ return {
 				ccls = {
 					init_options = {
 						cache = {
-							directory = "~/tmp/ccls",
+							directory = vim.fn.expand("$HOME/tmp/ccls"),
 						},
 						clang = {
 							excludeArgs = { "-frounding-math" },
 						},
+						compilationDatabaseDirectory = vim.fn.filereadable("/.dockerenv") ~= 0 and "build" or "",
 						index = {
 							threads = 0,
 						},
