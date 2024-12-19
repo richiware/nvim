@@ -9,6 +9,11 @@ return {
 				cpp = { "uncrustify" },
 				markdown = { "mdslw" },
 			},
+			formatters = {
+				shfmt = {
+					prepend_args = { "-i", "4", "-ci" },
+				},
+			},
 		},
 	},
 }
