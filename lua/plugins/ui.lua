@@ -17,4 +17,9 @@ return {
 			},
 		},
 	},
+	-- show images on kitty
+	{
+		"3rd/image.nvim",
+		opts = {},
+	},
 }
