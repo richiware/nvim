@@ -7,7 +7,7 @@ return {
 			formatters_by_ft = {
 				c = { "uncrustify" },
 				cpp = { "uncrustify" },
-				markdown = { "mdslw" },
+				markdown = { "mdslw" }, -- https://github.com/razziel89/mdslw
 			},
 			formatters = {
 				shfmt = {
