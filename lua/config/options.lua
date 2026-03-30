@@ -14,3 +14,6 @@ vim.opt.linebreak = true
 vim.opt.showbreak = "⤷ "
 vim.opt.textwidth = 120 -- 120 line length
 vim.opt.wrap = true
+
+-- Disable clipboard access to avoid Kitty asking access. Use terminal paste (Ctrl+Shift+V) instead.
+vim.opt.clipboard = ""
